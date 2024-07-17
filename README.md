@@ -22,7 +22,11 @@
 
   <br>
 
-## ✅ LiveWatchCoin api key will be deleted after 1 week, to app work add your api key at [backend/src/Utils/fetchCryptoData.ts]
+## ✅ LiveWatchCoin api key will be deleted after 1 week, to make app work fine add your api key at given below path 
+
+  <br>
+
+``` /backend/src/models/cryptoModel.ts  ```
 ![image](https://github.com/user-attachments/assets/4a9ba496-7fae-42c7-9d4b-c10a7d45b814)
 
 
