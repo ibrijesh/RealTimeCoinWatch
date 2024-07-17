@@ -13,7 +13,11 @@
 
   <br>
 
-## ✅ Make Sure to give local or cloud mongodb URI at  ``` /backend/src/models/cryptoModel.ts  ``` 
+## ✅ Make Sure to give local or cloud mongodb URI at given below path 
+
+  <br>
+
+``` /backend/src/models/cryptoModel.ts  ``` 
 - ![image](https://github.com/user-attachments/assets/d4eb1b38-0659-458d-bdf1-2da11ff21233)
 
   <br>
