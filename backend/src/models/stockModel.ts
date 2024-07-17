@@ -10,9 +10,9 @@ const mongoose = require("mongoose");
 **/
 
 
-mongoose.connect('mongodb://localhost:27017/stockdb')
-  .then(() => console.log('Successfully connected to EmployeeDB'))
-  .catch((err: any) => console.log('Could not connect to EmployeeDB..', err));
+mongoose.connect('mongodb://localhost:27017/cryptodb')
+  .then(() => console.log('Successfully connected to cryptoDB'))
+  .catch((err: any) => console.log('Could not connect to cryptoDB..', err));
 
 
 
