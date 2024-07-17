@@ -3,10 +3,10 @@ import bodyParser from 'body-parser';
 import { error, log, timeStamp } from 'console';
 import cron from 'node-cron';
 import cors from 'cors';
-import Stock from './models/stockModel';
+import Crypto from './models/cryptoModel';
 import eventsHandler from './Utils/eventsHandler';
 import { clients } from './Utils/eventsHandler';
-import fetchStockData  from './Utils/fetchStockData';
+import fetchCryptoData from './Utils/fetchCryptoData';
 
 
 const app = express();
@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const port = 3002;
 
-cron.schedule('*/10 * * * * *', () => fetchStockData()); // poll every second
+cron.schedule('*/10 * * * * *', () => fetchCryptoData()); // poll every second
 
 
 // Routes

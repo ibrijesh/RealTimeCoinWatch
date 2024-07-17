@@ -5,8 +5,7 @@ const mongoose = require("mongoose");
 
 
 /**  
-    mongodb://localhost:27017/stockdb -  use this url to connect with mongodb if you are running on local machine 
-    mongodb://stock-database:27017/stockdb - use this url to connect with mongodb if you are using docker-compose
+    mongodb://localhost:27017/cryptodb -  use this url to connect with mongodb if you are running on local machine 
 **/
 
 
@@ -16,10 +15,10 @@ mongoose.connect('mongodb://localhost:27017/cryptodb')
 
 
 
-/** Defining  Stock  Schema  */
+/** Defining  Crypto  Schema  */
 
 
-const stockSchema = new mongoose.Schema({
+const cryptoSchema = new mongoose.Schema({
   code: {
     type: String,
     unique: true,
@@ -67,6 +66,6 @@ const stockSchema = new mongoose.Schema({
 });
 
 
-const Stock = mongoose.model("stock", stockSchema);
+const Crypto = mongoose.model("crypto", cryptoSchema);
 
-export default Stock;
+export default Crypto;
