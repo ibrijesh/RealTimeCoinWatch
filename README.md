@@ -18,7 +18,7 @@
   <br>
 
 ``` /backend/src/models/cryptoModel.ts  ``` 
-- ![image](https://github.com/user-attachments/assets/dc5d28a0-7a36-4b2f-81da-dc36caa6d22b)
+ ![image](https://github.com/user-attachments/assets/dc5d28a0-7a36-4b2f-81da-dc36caa6d22b)
 
 
   <br>
@@ -28,7 +28,7 @@
   <br>
 
 ``` /backend/src/models/cryptoModel.ts  ```
-- ![image](https://github.com/user-attachments/assets/4a9ba496-7fae-42c7-9d4b-c10a7d45b814)
+ ![image](https://github.com/user-attachments/assets/4a9ba496-7fae-42c7-9d4b-c10a7d45b814)
 
 
   <br>
