@@ -66,21 +66,32 @@ cd backend
 npm i
 ```
 
-
 ### Step 4
+- run the below command
+``` 
+npm start
+```
+
+
+### Step 5
 - go the folder frontend
 ``` 
 cd frontend
 ```
 
-### Step 5
+### Step 6
 - run the below command
 ``` 
 npm i
 ```
 
+### Step 7
+- run the below command
+``` 
+npm start
+```
 
-### Step 4
+### Step 8
 - go to your favourite browser and  type
 ```
 http://localhost:3000    
